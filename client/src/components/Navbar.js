@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div
                     onClick={toggleMode}
                     className={darkMode ? 'toggle toggled' : 'toggle'}
-                />
+                /><h6>Dark Mode</h6>
             </div>
         </nav>
     );

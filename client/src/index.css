@@ -16,7 +16,7 @@ code {
   align-items: center;
   border-bottom: 1px solid rgb(221, 221, 221);
   display: flex;
-  height: 70px;
+  height: 90px;
   justify-content: space-between;
   padding: 0 3%;
   width: 100%;
@@ -56,4 +56,23 @@ code {
     background-color: #1F2022;
     border: none;
   }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border: solid 1px black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
