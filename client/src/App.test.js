@@ -8,7 +8,7 @@ test('renders without crashing', () => {
   render(<App />);
 });
 
-it('renders the h1 title', () => {
+test('renders the h1 title', () => {
   const wrapper = rtl.render(
     <App />
   );
