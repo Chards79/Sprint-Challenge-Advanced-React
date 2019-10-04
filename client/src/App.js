@@ -24,7 +24,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Navbar />
-        <h1>Women's World Cup Stars</h1>
+        <h1>Women World Cup Stars</h1>
         <div className="cards">
           <MappedCards players={this.state.players} />
         </div>
